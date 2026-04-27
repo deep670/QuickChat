@@ -2,8 +2,7 @@
 
 QuickChat is a modern **real-time chat application** built with the **MERN Stack** that enables seamless and secure communication. It provides instant messaging, image sharing, user authentication, profile management, and online/offline status tracking in a responsive and user-friendly interface.
 
-## 🚀 Live Demo
-🔗 [QuickChat Live](https://lnkd.in/dqM9c5MD)
+
 
 ---
 
