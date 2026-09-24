@@ -105,11 +105,10 @@ export const sendMessage = async (req, res) => {
     if (image) {
       console.log("Image received:", image.substring(0, 50));
 
-      const uploadResponse = await cloudinary.uploader.upload(image, {
-        upload_preset: "w0ntsdwx",
-      });
+      const uploadResponse = await cloudinary.uploader.upload(image);
 
       imageUrl = uploadResponse.secure_url;
+       console.log("Cloudinary URL:", imageUrl);
     }
 
     const newMessage = await Message.create({
